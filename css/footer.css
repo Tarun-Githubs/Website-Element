@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #0275d8;
+}
+
+.container{
+    width: 1140px;
+    height: auto;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.box{
+    width: 33.3%;
+    height: auto;
+    float: left;
+}
+
+h1{
+
+    font-size: 32px;
+    font-weight: 500;
+    padding: 8px 12px;
+}
+
+.about{
+    padding: 8px 12px;
+}
+
+.copyright{
+    text-align: center;
+    padding: 30px 0px;
+    clear: both;
+}
+
+.quick , .social{
+    text-align: center;
+    padding: 8px 12px;
+}
+
+.q-link li,.s-link li{
+    padding: 8px 12px;
+    text-align: center;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.q-link li:hover , .s-link li:hover{
+    color: #022645;
+}
+
